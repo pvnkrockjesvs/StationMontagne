@@ -1,6 +1,8 @@
 # Projet station de montagne
 
 Projet réalisé pendant l'année de BTS SNIR.
+La station était simulée par une carte arduino qui recoltait la température, et était composée de deux boutons simulant les telesièges / definissait leurs états.
+Le journal lumineux était un panneau LED.
 
 # Travail demandé
 
