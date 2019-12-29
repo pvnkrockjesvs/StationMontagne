@@ -1,26 +1,21 @@
-# Station de Montagne - Groupe 3
+# Projet station de montagne
 
-Groupe péchu
+Projet réalisé pendant l'année de BTS SNIR.
 
-Create a new repository
-git clone git@gitlab.com:SNIR-GRETA/Projet.git
-cd Projet
-touch README.md
-git add README.md
-git commit -m "add README"
-git push -u origin master
+# Travail demandé
 
-Existing folder
-cd existing_folder
-git init
-git remote add origin git@gitlab.com:SNIR-GRETA/2018-2019.git
-git add .
-git commit -m "Initial commit"
-git push -u origin master
+Au pied d’une montagne, un panneau LED va afficher les information suivantes :
+- les pistes en rouge / vert selon leur état
+- les télésièges en rouge / vert selon leur état
+- la température en jaune
+- maximum 10 messages de 40 caractères
+- l’heure
 
-Existing Git repository
-cd existing_repo
-git remote rename origin old-origin
-git remote add origin git@gitlab.com:SNIR-GRETA/2018-2019.git
-git push -u origin --all
-git push -u origin --tags
+Le logiciel à développer sur le PC va :
+- paramétrer l’état des pistes
+- définir les messages
+- acquérir la température et l’état des télésièges
+
+# Partie réalisé
+
+Partie IHM et intégration.
