@@ -1,8 +1,0 @@
-#!/bin/bash
-
-#programme envoie fichier sur Git Lab
-git pull origin master
-git add .
-git commit -m "maj"
-git push origin master
-echo "Fichier envoyé"
